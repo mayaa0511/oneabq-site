@@ -1,0 +1,17 @@
+<PHP><link rel="stylesheet" type="text/css" href="oneabqhome.css"><PHP>
+<div class="formemail">
+<perch:form id="form-email" method="post" app="perch_forms" role=form>
+</div>
+<div class="emailInput">
+     <perch:input id="email" type="email" required="true" placeholder="Email"></perch:input>
+</div>
+<div class="button-form">
+<perch:input type="submit" id="submit" value="Send"/>
+</div>    
+    <perch:success>
+<div class="alert success">
+<perch:content id="success" type="textarea" size="m" label="Thank you message" markdown="true" required="true"/>
+</div>
+    </perch:success>
+    </perch:form>
+    </div>

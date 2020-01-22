@@ -1,0 +1,13 @@
+.email {
+  background-image: url("emailBackground.png");
+  background-repeat: no-repeat;
+  background-size: 100% 350px;
+  padding-left: 50px;
+  padding-top: 100px;
+  width: 100%;
+  color: #fff;
+  height: 350px;
+}
+
+
+

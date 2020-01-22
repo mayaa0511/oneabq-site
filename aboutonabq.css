@@ -1,0 +1,333 @@
+body{
+    font-family: Proxima Nova;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: Proxima Nova;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+button {
+  outline: none !important;
+}
+
+nav {
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    background: rgba(0,0,0,0);
+    overflow: hidden;
+    color: #fff;
+    padding-left: 150px;
+    text-align: left;
+    margin: 0;
+    transition: 1s;
+}
+
+nav.black ul{
+    background-color: #000;
+}
+li{
+    display: inline-block;
+    padding: 20px
+}
+
+.buttonDonate{
+    margin-left: 650px;
+    background: #cc9933 0% 0% no-repeat padding-box;
+    font: Bold 20px Proxima Nova
+    padding: 100px;
+    color: #fff;
+    display: inline-block;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 36px;
+}
+.menu{
+    background:transparent;
+}
+
+}
+nav ul li {
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+ nav.black ul{
+     background-color: #000;
+ }
+.menu-icon {
+    width: 100%;
+    background: #fff;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #000;
+    display: none;
+}
+
+.active{
+    color: #CC3333;
+}
+
+.logo {
+  position: fixed;
+  float: left;
+  margin: 12px 30px;
+  height: 40px;
+  width: auto;
+}
+
+
+.buttonDonate {
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    background: #cc9933 0% 0% no-repeat padding-box;
+    font: Bold Proxima Nova
+    padding: 100px;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    border: none;
+    border-radius: 8px;
+    width: 115px;
+    height: 35px;
+  }
+
+
+
+.aboutABQ {
+    background-image: url("abq-skyline.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-left: 99px;
+	background-color: #CC9933;
+    color: #fff;
+    height: 850px;
+
+}
+
+.aboutVid {
+  height: auto;
+  overflow: hidden;
+  display: block;
+  margin-bottom: -7px;
+
+
+}
+
+
+.vertLogo{
+    padding-top: 30px;
+    padding-left: 50px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: -70px;
+}
+
+.text {
+    margin-left: -15px;
+    margin-top: 10px;
+}
+
+.learnMoreButton{
+    background: #cc9933 0% 0% no-repeat padding-box;
+    font: Bold Proxima Nova
+    padding: 100px;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    border: none;
+    border-radius: 8px;
+    width: 115px;
+    height: 35px;
+}
+
+@media(max-width: 580px) {
+    .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+    }
+
+
+    nav ul {
+        max-height: 0px;
+        background: #000;
+    }
+
+    nav.black ul {
+        background: #000;
+    }
+
+    .showing {
+        max-height: 20em;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px 0;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+.board{
+    background-color: #CC9933;
+    border-left-style: solid black;
+    margin-top: -100px;
+  
+}
+
+
+
+
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+h5 {
+    
+    text-align: left;
+    margin-left: 49px;
+}
+
+
+.charlesPic{
+    margin-left: 100px;
+    max-width: 250px;
+
+
+}
+
+.charles{
+    padding-top: 65px;
+
+}
+
+.drewPic{
+    margin-left: 100px;
+    max-width: 250px; 
+
+
+}
+
+.drew{
+    padding-top: 30px;
+}
+
+.pilarPic{
+  margin-left: 100px;
+  max-width: 250px;
+}
+
+.pilar{
+    padding-top: 20px;
+
+
+}
+
+.pSpace {
+  margin-top: -30px; 
+      padding-top: 30px;
+    padding-left: 50px ;
+    color: #fff;
+}
+
+.pSpace2 {
+  margin-top: -30px;
+      padding-top: 30px;
+    padding-left: 50px ;
+    color: #fff;
+}
+
+.pSpace3 {
+  margin-top: -30px;
+      padding-top: 30px;
+    padding-left: 50px ;
+    color: #fff;
+}
+
+
+.footer {
+  background-image: url("footer-bg.png");
+  background-size: 100%;
+  background-position: bottom;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 350px;
+}
+
+.footerLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 70px;
+  margin-bottom: -50px;
+}
+
+.links a {
+  color: black;
+
+}
+
+.links {
+  text-align: right;
+  line-height: 90%;
+  border-right-style: solid;
+}
+
+
+.contactUs {
+  color: #cc9933;
+  margin-top: 15px;
+
+  padding: 10px;
+}
+
+.contactUs2 {
+  line-height: 60%;
+  padding: 10px;
+
+}
+
+.rights {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.fill {
+    background-color: #cc9933;
+}
+
+

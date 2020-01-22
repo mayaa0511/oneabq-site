@@ -1,0 +1,504 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body{
+  background: #000;
+  font: Proxima Nova;
+}
+
+.outcomeSplash{
+  background-image: url("oldtown.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  margin: 0 auto;
+}
+
+.houseIcon{
+  margin-top: 20px;
+}
+.workIcon{
+  margin-top: 20px;
+}
+
+.outcomeHead{
+    padding-top: 200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+.splashText2{
+    
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+
+.outcomes {
+  background-color: #cc9933;
+  color: #fff;
+}
+
+.fontColor {
+  color: white;
+}
+
+.mobile {
+    display: none;
+
+}
+
+.mobileGetInvolved {
+    display: none;
+}
+
+#myVid{
+  height: auto;
+  display: block;
+  background-color: overlay;
+  opacity: 0.8;
+}
+
+
+
+.logo2{
+  position: absolute;
+  left: 200px;
+  top: 150px;
+}
+
+.splashLogo{
+  height: 320px;
+  width: 125px;
+}
+
+
+.splashText{
+  color: #fff;
+  position: absolute;
+  left: 325px;
+  top: 190px;
+}
+
+.pSpace{
+  margin-top: -10px;
+}
+
+.button1{
+  background: #cc9933 0% 0% no-repeat padding-box;
+  font: Bold Proxima Nova;
+  padding: 100px;
+  font-size: 13px;
+  color: #fff;
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+
+}
+
+.getInvolved{
+    width: 100%;
+    height: 350px;
+
+
+}
+
+.getInvolvedHead{
+  font-size: 50px;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.content{
+    position: absolute;
+  width: 100%;
+  margin-bottom: : 450px;
+  font-family: Proxima Nova;
+  line-height: 20px;
+  text-align: left;
+  color: #fff;
+  height: 350px;
+}
+
+
+
+video{
+  height: 550px;
+  width: 100%;
+  object-fit: cover;
+  z-index: -100;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.logo{
+  position: fixed;
+  float: left;
+  margin: 12px 30px;
+  height: 40px;
+  width: auto;
+}
+
+nav{
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+}
+
+nav ul{
+  list-style: none;
+  background: rgba(0,0,0,0);
+  overflow: hidden;
+  color: #fff;
+  padding-left: 150px;
+  text-align: left;
+  margin: 0;
+  transition: 1s;
+}
+
+li{
+  display: inline-block;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.buttonDonate{
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+  background: #cc9933 0% 0% no-repeat padding-box;
+  font: Bold Proxima Nova
+  padding: 100px;
+  font-size: 13px;
+  color: #fff;
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  width: 115px;
+  height: 35px;
+}
+
+.menu{
+  background:transparent;
+}
+
+button{
+  outline: none !important;
+}
+
+a:hover{
+  text-decoration: none !important;
+  color: white !important;
+}
+
+nav ul li{
+  padding: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+nav.black ul{
+  background: #000;
+}
+
+.menu-icon{
+  width: 100%;
+  background: #0000;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+
+.volunteerButton{
+  background: #cc9933 0% 0% no-repeat padding-box;
+  font: Bold Proxima Nova
+  padding: 100px;
+  font-size: 13px;
+  color: #fff;
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  width: 115px;
+  height: 35px;
+}
+
+.volunteer{
+  background-image: url("home-housing-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.learnMoreButton{
+  background: #cc9933 0% 0% no-repeat padding-box;
+  font: Bold Proxima Nova
+  padding: 100px;
+  font-size: 13px;
+  color: #fff;
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  width: 115px;
+  height: 35px;
+}
+
+.handIcon{
+ width: 100px;
+ height: 110px;
+ margin-left: 14px;
+ margin-top: 120px;
+}
+
+.picture{
+  width: 100%;
+  height: 300px;
+  transform: scaleX(-1);
+}
+
+.housingVouchers{
+  font-size: 45px;
+  margin-top: 250px;
+}
+
+.email{
+  background-image: url("emailBackground.png");
+  background-repeat: no-repeat;
+  background-size: 100% 350px;
+  padding-left: 50px;
+  padding-top: 100px;
+  width: 100%;
+  color: #fff;
+  height: 350px;
+}
+
+.stayConnected{
+  font-size: 50px;
+  margin-top: -50px;
+}
+
+.emailIcon{
+  width: 100px;
+  height: 110px;
+  margin-left: 540px;
+  margin-top: -230px;
+}
+
+input{
+  border-radius: 8px;
+  border: none;
+  height: 35px;
+  width: 250px;
+  margin-top: 10px;
+}
+
+input[type="text"]{
+  padding-left: 10px;
+  font-family: Proxima Nova;
+  outline: none;
+}
+
+input:focus, input.form-control:focus{
+  outline:none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+}
+
+.register{
+  background: #cc9933 0% 0% no-repeat padding-box;
+  font: Bold Proxima Nova
+  padding: 100px;
+  margin-left: 5px;
+  font-size: 13px;
+  color: #fff;
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  width: 115px;
+  height: 35px;
+  float: right;
+  margin-top: 10px;
+} 
+
+.footer{
+  background-image: url("footer-bg.png");
+  background-size: 100%;
+  background-position: bottom;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 350px;
+}
+
+.footerLogo{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 70px;
+  margin-bottom: -50px;
+
+}
+
+.links a {
+  color: black;
+}
+
+.links {
+  text-align: right;
+  line-height: 90%;
+  border-right-style: solid;
+}
+
+.contactUs{
+  color: #cc9933;
+  margin-top: 35px;
+  margin-left: 15px;
+}
+
+.contactUs2{
+  line-height: 1.2;
+  margin-left: 15px;
+}
+
+.rights{
+  font-size: 12px;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.container{
+  
+}
+.sponsorSplash{
+  background-image: url("balloon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+.splashText{
+  width: 30%;
+margin-left: 10.5%;
+}
+
+.sponsHead{
+  
+  padding-top: 10%;
+  
+}
+
+.sponsorLogos{
+  background-color: #cc9933;
+}
+
+#logo{
+  width: 20%;
+  padding: 2%;
+}
+
+#logos{
+  width: 15%;
+  padding: 2%;
+}
+
+  
+
+
+
+
+@media(max-width: 580px){
+  .logo {
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+}
+
+@media only screen and (max-width: 580px) {
+    #myVid {
+        display: none !important; 
+        }
+        .mobile {
+            display: block;
+            width: 100%;
+        }
+        .getInvolved {
+            display: none;
+        }
+        
+        .mobileGetInvolved{
+            display: block;
+            width: 100%;
+        }
+
+        .splashLogo {
+            margin-left: -140%;
+            margin-top: 100%;
+        }
+
+        .splashText {
+            margin-left: -165px;
+            margin-top: 100px;
+        }
+        .handIcon {
+            margin-top: -500px;
+            width: 70px;
+            height: 70px;
+            margin-left: 40px;
+        }
+        .getInvolvedHead {
+            font-size: 25px;
+            margin-top: -350px;
+            padding-left: 200px;
+        }
+        .getInvolvedText {
+            padding-left: 200px;
+            font-size: 13px;
+        }
+        .volunteerButton{
+            margin-left: 200px;
+        }
+        .volunteer{
+            background-image: url("home-housing-bg.png");
+            max-width: 100%;
+            height: auto;
+            font-size: 13px;
+        }
+        
+        .housingVouchers{
+            font-size: 25px;
+        }
+
+        .email {
+        background-image: url("emailBackground.png");
+        width: 150%;
+        height: auto;
+        
+        }
+        .footer{
+  
+        background-image: url("footer-bg.png");
+        max-width: 100%;
+        height: auto;
+        }
+

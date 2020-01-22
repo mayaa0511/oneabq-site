@@ -1,0 +1,419 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body{
+  background: #000;
+  font: Proxima Nova;
+}
+.splashLogo{
+  height: 320px;
+  width: 125px;
+}
+
+
+.splashText{
+  color: #fff;
+  position: absolute;
+  left: 335px;
+  top: 190px;
+}
+
+.pSpace{
+  margin-top: -10px;
+}
+
+.aboutButton {
+  font-size: 13px;
+  font: Bold Proxima Nova;
+
+}
+
+.mobile {
+    display: none;
+
+}
+
+.mobileGetInvolved {
+    display: none;
+}
+
+@media only screen and (max-width: 580px) {
+    #myVid {
+        display: none !important; 
+        }
+        .mobile {
+            display: block;
+           
+            width: 100%;
+        }
+        .getInvolved {
+            display: block;
+        
+        }
+        .mobileGetInvolved{
+            display: block;
+            width: 100%;
+        }
+
+        .splashLogo {
+            margin-left: -140px;
+        }
+
+        .splashText {
+            margin-left: -145px;
+        }
+
+        
+
+}
+
+
+
+
+
+
+#myVid{
+  height: auto;
+  display: block;
+}
+
+.logo2{
+  position: absolute;
+  left: 200px;
+  top: 150px;
+}
+
+.splashLogo{
+  height: 320px;
+  width: 125px;
+}
+
+.aboutButton{
+  background: #cc9933 0% 0% no-repeat padding-box;
+  font: Bold Proxima Nova
+  font-size: 13px;
+  color: #fff;
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  width: 115px;
+  height: 35px;
+}
+
+.getInvolved{
+    width: 100%;
+    height: 350px;
+
+}
+
+.getInvolvedHead{
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+.content{
+    position: absolute;
+  width: 100%;
+  margin-bottom: : 450px;
+  font-family: Proxima Nova
+  line-height: 20px;
+  text-align: left;
+  color: #fff;
+  height: 350px;
+}
+
+
+
+video{
+  height: 550px;
+  width: 100%;
+  object-fit: cover;
+  z-index: -100;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.logo{
+  position: fixed;
+  float: left;
+  margin: 12px 30px;
+  height: 40px;
+  width: auto;
+}
+
+nav{
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+}
+
+nav ul{
+  list-style: none;
+  background: rgba(0,0,0,0);
+  overflow: hidden;
+  color: #fff;
+  padding-left: 150px;
+  text-align: left;
+  margin: 0;
+  transition: 1s;
+}
+
+li{
+  display: inline-block;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.buttonDonate{
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+  background: #cc9933 0% 0% no-repeat padding-box;
+  font: Bold Proxima Nova
+  padding: 100px;
+  font-size: 13px;
+  color: #fff;
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  width: 115px;
+  height: 35px;
+}
+
+.menu{
+  background:transparent;
+}
+
+button{
+  outline: none !important;
+}
+
+a:hover{
+  text-decoration: none !important;
+  color: white !important;
+}
+
+nav ul li{
+  padding: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+nav.black ul{
+  background: #000;
+}
+
+.menu-icon{
+  width: 100%;
+  background: #0000;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+
+.volunteerButton{
+  background: #cc9933 0% 0% no-repeat padding-box;
+  font: Bold Proxima Nova
+  padding: 100px;
+  font-size: 13px;
+  color: #fff;
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  width: 115px;
+  height: 35px;
+}
+
+.volunteer{
+  background-image: url("home-housing-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.learnMoreButton{
+  background: #cc9933 0% 0% no-repeat padding-box;
+  font: Bold Proxima Nova
+  padding: 100px;
+  font-size: 13px;
+  color: #fff;
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  width: 115px;
+  height: 35px;
+}
+
+.handIcon{
+ width: 100px;
+ height: 110px;
+ margin-left: 14px;
+ margin-top: 120px;
+}
+
+.picture{
+  width: 100%;
+  height: 300px;
+  transform: scaleX(-1);
+}
+
+.housingVouchers{
+  padding-right: 55px;
+  font-size: 45px;
+  margin-top: 250px;
+  width: 450px;
+}
+
+.housingText{
+  width: 500px;
+  margin-left: 25px;
+}
+
+.email{
+  background-image: url("emailBackground.png");
+  background-repeat: no-repeat;
+  background-size: 100% 350px;
+  padding-left: 50px;
+  padding-top: 100px;
+  width: 100%;
+  color: #fff;
+  height: 350px;
+}
+
+.stayConnected{
+  font-size: 50px;
+}
+
+.emailIcon{
+  width: 100px;
+  height: 110px;
+  margin-left: 540px;
+  margin-top: -230px;
+}
+
+input#form1_email{
+  border-radius: 8px;
+  height: 35px;
+  width: 225px;
+  background-color: #0000;
+  border-radius: 8px;
+  border: solid white 2px;
+  font-family: Proxima Nova;
+  outline: none;
+  outline:none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+}
+
+::placeholder{
+  color: #fff;
+  font-family: Proxima Nova;
+}
+
+input#form1_submit{
+  background: #cc9933 0% 0% no-repeat padding-box;
+  font: Bold Proxima Nova;
+  margin-top: -35px;
+  font-size: 13px;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  width: 115px;
+  height: 35px;
+  float: right;
+} 
+
+.footer{
+  background-image: url("footer-bg.png");
+  background-size: 100%;
+  background-position: bottom;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 350px;
+}
+
+.footerLogo{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 70px;
+  margin-bottom: -50px;
+}
+
+.links a {
+  color: black;
+}
+
+.links {
+  text-align: right;
+  line-height: 90%;
+  border-right-style: solid;
+}
+
+.contactUs{
+  color: #cc9933;
+  margin-top: 35px;
+  margin-left: 15px;
+}
+
+.contactUs2{
+  line-height: 1.2;
+  margin-left: 15px;
+}
+
+.rights{
+  font-size: 12px;
+  text-align: center;
+  margin-top: -30px;
+}
+
+@media(max-width: 580px){
+  .logo {
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+}
+
+nav ul{
+  max-height: 0px;
+  background: #0000;
+}
+
+nav.black ul{
+  background: #000;
+}
+
+.showing{
+  max-height: 20em;
+}
+
+nav ul li{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 24px 0;
+  text-align: center;
+}
+
+.menu-icon{
+  display: block;
+}

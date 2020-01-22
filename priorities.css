@@ -1,0 +1,356 @@
+button{
+  outline: none !important;
+}
+
+a:hover{
+  text-decoration: none !important;
+  color: white !important;
+}
+
+nav {
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    background: rgba(0,0,0,0);
+    overflow: hidden;
+    padding-left: 150px;
+    text-align: left;
+    margin: 0;
+    transition: 1s;
+}
+
+nav.black ul{
+    background-color: #000;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+nav ul li.active a{
+    color: #CC3333;
+}
+
+ nav.black ul{
+     background-color: #000;
+ }
+
+
+
+.menu{
+    background:transparent;
+}
+
+.menu-icon {
+    width: 100%;
+    background: #fff;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #000;
+    display: none;
+}
+
+.activeNav{
+    color: #CC3333;
+}
+
+.logo{
+  position: fixed;
+  float: left;
+  margin: 12px 30px;
+  height: 40px;
+  width: auto;
+}
+
+.splashPage{
+    background-image: url("downtown.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    margin: 0 auto;
+}
+
+.heading{
+    padding-top: 200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+.text{
+    
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+
+.campaign{
+    background: url("yellow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    height: 650px;
+    color: #fff;
+}
+
+.yellowBackground{
+    width: 100%;
+    height: 650px;
+    position: bottom;
+    transform: scale();
+}
+
+.buttonDonate{
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+  background: #cc9933 0% 0% no-repeat padding-box;
+  font: Bold Proxima Nova
+  padding: 100px;
+  font-size: 13px;
+  color: #fff;
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  width: 115px;
+  height: 35px;
+}
+
+.heading2{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.text2{
+   padding-left: 5px;
+}
+
+.policeIcon{
+    margin-left: -5px;
+    width: 100px;
+    height: 100px;
+}
+
+.school-icon{
+    margin-left: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.work-icon{
+    margin-left: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.handhouse-icon{
+    margin-left: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.slideshow-container {
+    position: relative;
+    background: #000;
+    width: 400px;
+    height: 400px;
+  }
+  
+  /* Slides */
+  .mySlides {
+    color: #ffffff;
+    display: none;
+    padding: 50px;
+    text-align: left;
+    width: 500px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .prev{
+      left:10px;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    left: 420px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    margin-top: 120px;
+    margin-left: 34px;
+    padding: 20px;
+    background: #0000;
+    width: 360px;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
+
+
+
+.links ul li{
+    list-style: none;
+    margin-bottom: 15px;
+    color: black;
+
+}
+
+.links ul li a{
+    color: black;
+}
+
+.footer{
+  background-image: url("footer-bg.png");
+  background-size: 100%;
+  background-position: bottom;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 350px;
+}
+
+.footerLogo{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 70px;
+  margin-bottom: -50px;
+}
+
+.links a {
+  color: black;
+}
+
+.links {
+  text-align: right;
+  line-height: 90%;
+  border-right-style: solid;
+}
+
+.contactUs{
+  color: #cc9933;
+  margin-top: 35px;
+  margin-left: 15px;
+}
+
+.contactUs2{
+  line-height: 1.2;
+  margin-left: 15px;
+}
+
+.rights{
+  font-size: 12px;
+  text-align: center;
+  margin-top: -30px;
+}
+
+h4{
+    color: #cc9933;
+}
+
+.prioritiesLink{
+  color: #cc9933;
+  padding-left: 5px;
+  font-size: 16px;
+}
+
+
+#pLink{
+  color: #cc9933;
+  text-decoration: underline;
+}
+
+#pLink:hover{
+  color: #cc9933 !important;
+  text-decoration: underline !important;
+}
+
+@media(max-width: 580px) {
+    .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+    }
+
+
+    nav ul {
+        max-height: 0px;
+        background: #000;
+    }
+
+    nav.black ul {
+        background: #000;
+    }
+
+    .showing {
+        max-height: 20em;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px 0;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}

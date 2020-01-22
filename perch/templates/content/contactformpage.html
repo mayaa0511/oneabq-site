@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="contactForms.css">
+<div class="id">
+            <h2 class="getIn"><perch:content id="heading" type="text" label="heading" required="true"></h2>
+            <perch:form id="form-contact" method="post" app="perch_forms" role=form>
+</div>
+        <div class="name"> 
+            <perch:input id="first" type="text" required="true" placeholder="First Name"/>
+            <perch:input id="last" type="text" required="true" placeholder="Last Name"/>
+        </div>
+        <div class="id">
+            <perch:input id="email" type="email" required="true" placeholder="Email"/><br>
+        </div>
+        <div class="id">
+            <perch:input id="phone" type="text" required="true" placeholder="Phone"/><br>
+        </div>
+        <div class="id">
+            <perch:input id="message" type="textarea" required="true" placeholder="Message"/>
+        </div>
+    <perch:input type="submit" id="submit" value="Send"/>
+    
+    <perch:success>
+        <div class="alert success">
+            <perch:content id="success" type="textarea" size="m" label="Thank you message" markdown="true" 
+            required="true"/>
+        </div>
+    </perch:success>
+    </perch:form>

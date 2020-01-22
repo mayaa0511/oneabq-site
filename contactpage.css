@@ -1,0 +1,261 @@
+nav {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  background: rgba(0,0,0,0);
+  overflow: hidden;
+  color: #fff;
+  padding-left: 150px;
+  text-align: left;
+  margin: 0;
+  transition: 1s;
+}
+
+li {
+  display: inline-block;
+  padding: 20px
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+button {
+  outline: none !important;
+}
+
+.buttonDonate {
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+  background: #cc9933 0% 0% no-repeat padding-box;
+  font: Bold Proxima Nova
+  padding: 100px;
+  font-size: 13px;
+  color: #fff;
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  width: 115px;
+  height: 35px;
+}
+
+.menu {
+  background:transparent;
+}
+
+nav ul li {
+  padding: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+ 
+nav.black ul {
+  background: #000;
+ }
+
+ .activeNav{
+   color: #CC3333;
+ }
+
+.menu-icon {
+  width: 100%;
+  background: #fff;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #000;
+  display: none;
+}
+
+.splashPage {
+  background-image: url("contact-header-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  margin: 0 auto;
+
+}
+
+.heading {
+  padding-top: 200px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+
+.text {
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+
+.logo {
+  position: fixed;
+  float: left;
+  margin: 12px 30px;
+  height: 40px;
+  width: auto;
+}
+
+.masthead {
+  background-color: #cc9933;
+  background-image: url("abq-skyline2.png");
+  background-size: 100% 65%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 850px;
+  padding-top: 30px;
+  padding-left: 99px;
+}
+
+.getIn {
+  color: #fff;
+  margin-bottom: -10px;
+}
+
+input#form1_first {
+  border-radius: 8px;
+  height: 35px;
+  width: 150px;
+  margin-top: 20px;
+  background-color: #0000;
+  border-radius: 8px;
+  border: solid white 2px;
+}
+
+input#form1_last {
+  border-radius: 8px;
+  height: 35px;
+  width: 150px;
+  margin-top: 10px;
+  background-color: #0000;
+  border-radius: 8px;
+  border: solid white 2px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+input#form1_email {
+  border-radius: 8px;
+  height: 35px;
+  width: 320px;
+  margin-top: 5px;
+  background-color: #0000;
+  border-radius: 8px;
+  border: solid white 2px;
+}
+
+input#form1_phone {
+  border-radius: 8px;
+  height: 35px;
+  width: 320px;
+  margin-top: 5px;
+  background-color: #0000;
+  border-radius: 8px;
+  border: solid white 2px;
+}
+
+textarea#form1_message{
+  border-radius: 8px;
+  width: 320px;
+  margin-top: 5px;
+  background-color: #0000;
+  border-radius: 8px;
+  border: solid white 2px;
+}
+
+input#form1_submit {
+  background-color: #CC3333;
+  color: #fff;
+  font: Bold Proxima Nova
+  padding: 100px;
+  font-size: 13px;
+  color: #fff;
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  width: 115px;
+  height: 35px;
+  margin-top: 15px;
+}
+
+::placeholder {
+  color:#fff;
+}
+
+.main{
+  padding-left: 10px;
+  font-family: Proxima Nova
+  outline: none;
+  outline:none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  color: #fff;
+}
+
+.footer {
+  background-image: url("footer-bg.png");
+  background-size: 100%;
+  background-position: bottom;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 350px;
+}
+
+.footerLogo {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 70px;
+  margin-bottom: -50px;
+}
+
+.links a {
+  color: black;
+}
+
+.links {
+  text-align: right;
+  line-height: 90%;
+  border-right-style: solid;
+}
+
+.contactUs{
+  color: #cc9933;
+  margin-top: 35px;
+  margin-left: 15px;
+}
+
+.contactUs2{
+  line-height: 1.2;
+  margin-left: 15px;
+}
+
+.rights{
+  font-size: 12px;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.active{
+    color: #CC3333;
+}
+
+.fill {
+    background-color: #cc9933;
+}
