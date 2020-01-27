@@ -338,6 +338,7 @@ input:focus, input.form-control:focus{
 
 .footer{
   background-image: url("footer-bg.png");
+  background-repeat: no-repeat;
   background-size: 100%;
   background-position: bottom;
   padding-top: 100px;
@@ -421,84 +422,3 @@ margin-left: 10.5%;
   width: 15%;
   padding: 2%;
 }
-
-  
-
-
-
-
-@media(max-width: 580px){
-  .logo {
-    position: fixed;
-    top: 0;
-    margin-top: 16px;
-}
-
-@media only screen and (max-width: 580px) {
-    #myVid {
-        display: none !important; 
-        }
-        .mobile {
-            display: block;
-            width: 100%;
-        }
-        .getInvolved {
-            display: none;
-        }
-        
-        .mobileGetInvolved{
-            display: block;
-            width: 100%;
-        }
-
-        .splashLogo {
-            margin-left: -140%;
-            margin-top: 100%;
-        }
-
-        .splashText {
-            margin-left: -165px;
-            margin-top: 100px;
-        }
-        .handIcon {
-            margin-top: -500px;
-            width: 70px;
-            height: 70px;
-            margin-left: 40px;
-        }
-        .getInvolvedHead {
-            font-size: 25px;
-            margin-top: -350px;
-            padding-left: 200px;
-        }
-        .getInvolvedText {
-            padding-left: 200px;
-            font-size: 13px;
-        }
-        .volunteerButton{
-            margin-left: 200px;
-        }
-        .volunteer{
-            background-image: url("home-housing-bg.png");
-            max-width: 100%;
-            height: auto;
-            font-size: 13px;
-        }
-        
-        .housingVouchers{
-            font-size: 25px;
-        }
-
-        .email {
-        background-image: url("emailBackground.png");
-        width: 150%;
-        height: auto;
-        
-        }
-        .footer{
-  
-        background-image: url("footer-bg.png");
-        max-width: 100%;
-        height: auto;
-        }
-
