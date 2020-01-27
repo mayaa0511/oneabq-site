@@ -342,6 +342,7 @@ input#form1_submit{
 
 .footer{
   background-image: url("footer-bg.png");
+  background-repeat: no-repeat;
   background-size: 100%;
   background-position: bottom;
   padding-top: 100px;
