@@ -3,6 +3,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=.7, minimum-scale=.7, maximum-scale=.7">
   <title>oneabq sponsors</title>
   <PHP><link rel="stylesheet" type="text/css" href="sponsorspage.css"><PHP>
   <link rel="stylesheet" href="sponsorspage.css?v=<?php echo time(); ?>">
@@ -54,23 +55,34 @@
                     <img src="bcbs.png" id="logo">
                     <img src="brownlogo.png" id="logo">
                     <img src="bueno.png" id="logo">
-                      
-                
                     <img src="comcast.png" id="logo">
+                
+                    
                     <img src="dions.png" id="logos">
+                    <img src="everest.png" id="logo">
                     <img src="fresquez.png" id="logo">
                     <img src="frontierlogo.png" id="logos">
+                    <img src="garcia.png" id="logo">
+
               
                     <img src="gklogo.png" id="logo">
                     <img src="goldenpridelogo.png" id="logo">
                     <img src="goodmanrealtygroup.png" id="logo">
+                    <img src="jacobs.png" id="logo">
                     <img src="lmlogo.png" id="logo">
                   
                 
                     <img src="molz.png" id="logo">
+                    <img src="nca.png" id="logo">
                     <img src="netflix.png" id="logo">
                     <img src="nmgco.png" id="logo">
+                    <img src="rmci.png" id="logo">
+
+
+                    <img src="starpaving.png" id="logo">
                     <img src="yannis.png" id="logo">
+                    <img src="yearout.png" id="logo">
+                    <img src="ym_logo.png" id="logo">
                  
                   </center> 
 
@@ -121,44 +133,6 @@ Albuquerque NM 87125-5125</p>
 </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-    
-    
-    
-    
-  <script type="text/javascript">
-
-    $(document).ready(function() {
-      $(".menu-icon").on("click", function() {
-        $("nav ul").toggleClass("showing");
-      });
-    });
-  
-  
-    $(window).on("scroll", function() {
-      if($(window).scrollTop()) {
-        $("nav").addClass("black");
-      }
-      else {
-         $("nav").removeClass("black");
-      }
-    })
-</script>
 <script src="oneabq.js"></script>
   </body>
   </html>
