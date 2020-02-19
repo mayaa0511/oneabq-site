@@ -50,27 +50,27 @@
 
                 <div class="sponsorLogos">
                    <center>
-                    <img src="allensigmon.png" id="logo">
-                    <img src="bcbs.png" id="logo">
-                    <img src="brownlogo.png" id="logo">
-                    <img src="bueno.png" id="logo">
+                    <perch:content id="logo" type="image" label="Logo">
+                    <perch:content id="logo" type="image" label="Logo">
+                    <perch:content id="logo" type="image" label="Logo">
+                    <perch:content id="logo" type="image" label="Logo">
                       
                 
-                    <img src="comcast.png" id="logo">
-                    <img src="dions.png" id="logos">
-                    <img src="fresquez.png" id="logo">
-                    <img src="frontierlogo.png" id="logos">
+                    <perch:content id="logo" type="image" label="Logo">
+                    <perch:content id="logo" type="image" label="Logo">
+                    <perch:content id="logo" type="image" label="Logo">
+                    <perch:content id="logo" type="image" label="Logo">
               
-                    <img src="gklogo.png" id="logo">
-                    <img src="goldenpridelogo.png" id="logo">
-                    <img src="goodmanrealtygroup.png" id="logo">
-                    <img src="lmlogo.png" id="logo">
+                    <perch:content id="logo" type="image" label="Logo">
+                    <perch:content id="logo" type="image" label="Logo">
+                    <perch:content id="logo" type="image" label="Logo">
+                    <perch:content id="logo" type="image" label="Logo">
                   
                 
-                    <img src="molz.png" id="logo">
-                    <img src="netflix.png" id="logo">
-                    <img src="nmgco.png" id="logo">
-                    <img src="yannis.png" id="logo">
+                    <perch:content id="logo" type="image" label="Logo">
+                    <perch:content id="logo" type="image" label="Logo">
+                    <perch:content id="logo" type="image" label="Logo">
+                    <perch:content id="logo" type="image" label="Logo">
                  
                   </center> 
 
