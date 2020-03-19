@@ -69,12 +69,12 @@ nav.black ul {
 
 .menu-icon {
   width: 100%;
-  background: #fff;
+  background: #000;
   text-align: right;
   box-sizing: border-box;
   padding: 15px 24px;
   cursor: pointer;
-  color: #000;
+  color: #fff;
   display: none;
 }
 
@@ -84,7 +84,6 @@ nav.black ul {
   background-repeat: no-repeat;
   height: 650px;
   margin: 0 auto;
-
 }
 
 .heading {
@@ -208,6 +207,7 @@ input#form1_submit {
 .footer {
   background-image: url("footer-bg.png");
   background-size: 100%;
+  background-repeat: no-repeat;
   background-position: bottom;
   padding-top: 100px;
   padding-left: 100px;
@@ -258,4 +258,59 @@ input#form1_submit {
 
 .fill {
     background-color: #cc9933;
+}
+
+@media(max-width: 800px) {
+  .logo {
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+  }
+  
+  nav ul {
+    max-height: 0px;
+    background: #000;
+  }
+
+  nav.black ul {
+    background: #000;
+  }
+
+  .showing {
+    max-height: 20em;
+  }
+
+  .menu-icon {
+    display: block;
+    background-color: black;
+  }
+
+  .footer {
+    background-size: cover;
+    font-size: small;
+  }
+
+  .links {
+    margin-top: -160px;
+  }
+
+  .rights {
+    font-size: 5px;
+    margin-top: -5px;
+  }
+
+  .footerLogo {
+    margin-top: -160px;
+  }
+
+  .masthead {
+    background-image: none;
+    height: 50%;
+    padding-bottom: 10%;
+  }
+
+  .fill {
+    display: none;
+  }
+
 }
