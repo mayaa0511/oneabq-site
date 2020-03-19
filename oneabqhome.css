@@ -1,3 +1,4 @@
+  
 html, body{
   margin: 0;
   padding: 0;
@@ -8,11 +9,11 @@ body{
   background: #000;
   font: Proxima Nova;
 }
+
 .splashLogo{
   height: 320px;
   width: 125px;
 }
-
 
 .splashText{
   color: #fff;
@@ -28,52 +29,11 @@ body{
 .aboutButton {
   font-size: 13px;
   font: Bold Proxima Nova;
-
 }
 
 .mobile {
     display: none;
-
 }
-
-.mobileGetInvolved {
-    display: none;
-}
-
-@media only screen and (max-width: 580px) {
-    #myVid {
-        display: none !important; 
-        }
-        .mobile {
-            display: block;
-           
-            width: 100%;
-        }
-        .getInvolved {
-            display: block;
-        
-        }
-        .mobileGetInvolved{
-            display: block;
-            width: 100%;
-        }
-
-        .splashLogo {
-            margin-left: -140px;
-        }
-
-        .splashText {
-            margin-left: -145px;
-        }
-
-        
-
-}
-
-
-
-
-
 
 #myVid{
   height: auto;
@@ -104,9 +64,10 @@ body{
 }
 
 .getInvolved{
-    width: 100%;
-    height: 350px;
-
+  background-image: url("getInvolved.png");
+  background-size: cover;
+  width: 100%;
+  height: 350px;
 }
 
 .getInvolvedHead{
@@ -115,7 +76,7 @@ body{
 }
 
 .content{
-    position: absolute;
+  position: absolute;
   width: 100%;
   margin-bottom: : 450px;
   font-family: Proxima Nova
@@ -124,8 +85,6 @@ body{
   color: #fff;
   height: 350px;
 }
-
-
 
 video{
   height: 550px;
@@ -193,6 +152,10 @@ button{
   outline: none !important;
 }
 
+a{
+  color: white;
+}
+
 a:hover{
   text-decoration: none !important;
   color: white !important;
@@ -238,8 +201,9 @@ nav.black ul{
 
 .volunteer{
   background-image: url("home-housing-bg.png");
-  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  box-sizing: border-box;
   height: 750px;
   width: 100%;
   color: #fff;
@@ -253,7 +217,7 @@ nav.black ul{
   font: Bold Proxima Nova
   padding: 100px;
   font-size: 13px;
-  color: #fff;
+  color: white;
   display: inline-block;
   border: none;
   border-radius: 8px;
@@ -275,21 +239,13 @@ nav.black ul{
 }
 
 .housingVouchers{
-  padding-right: 55px;
+  padding-top: 50%;
   font-size: 45px;
-  margin-top: 250px;
-  width: 450px;
-}
-
-.housingText{
-  width: 500px;
-  margin-left: 25px;
 }
 
 .email{
   background-image: url("emailBackground.png");
-  background-repeat: no-repeat;
-  background-size: 100% 350px;
+  background-size: cover;
   padding-left: 50px;
   padding-top: 100px;
   width: 100%;
@@ -383,38 +339,99 @@ input#form1_submit{
 }
 
 .rights{
-  font-size: 12px;
+  font-size: 1vw;
   text-align: center;
   margin-top: -30px;
 }
 
-@media(max-width: 580px){
+@media(max-width: 800px) {
+  #myVid {
+    display: none !important; 
+  }
+        
+  .mobile {
+    display: block;
+    background-color: overlay;
+    opacity: 0.6;
+    width: 100%;
+  }
+
+  .splashLogo {
+    margin-left: -140px;
+  }
+
+  .splashText {
+    margin-left: -145px;
+  }
+
   .logo {
     position: fixed;
     top: 0;
     margin-top: 16px;
-}
+  }
 
-nav ul{
-  max-height: 0px;
-  background: #0000;
-}
+  nav ul {
+    max-height: 0px;
+    background: #000;
+  }
 
-nav.black ul{
-  background: #000;
-}
+  nav.black ul {
+    background: #000;
+  }
 
-.showing{
-  max-height: 20em;
-}
+  .showing {
+    max-height: 20em;
+  }
 
-nav ul li{
-  box-sizing: border-box;
-  width: 100%;
-  padding: 24px 0;
-  text-align: center;
-}
+  .menu-icon {
+    display: block;
+    background-color: black;
+  }
 
-.menu-icon{
-  display: block;
+  .footer {
+    background-size: cover;
+    font-size: small;
+  }
+
+  .links {
+    margin-top: -160px;
+  }
+
+  .rights {
+    font-size: 5px;
+    margin-top: -5px;
+  }
+
+  .footerLogo {
+    margin-top: -160px;
+  }
+
+  .vertLogo {
+    margin-top: 320px;
+  }
+
+  .handIcon {
+    display: none;
+  }
+
+  .emailIcon {
+    display: none;
+  }
+
+  .volunteerButton{
+    background-color: black;
+  }
+
+  .email {
+    background-image: none;
+  }
+
+  input#form1_submit {
+    margin-right: 25%;
+  }
+
+.housingVouchers {
+  padding-top: 55%;
+  height: 400px;
+  }
 }
