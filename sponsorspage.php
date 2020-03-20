@@ -10,46 +10,38 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
-  <body>
-        <div class="navBar">
-                <header>
-                  <nav> 
-                    <div class="menu-icon">
-                      <i class="fa fa-bars fa-2x"></i>
-                    </div>
-                    <div class="oneabqlogo">
-                      <a href="oneabqhome.php"><img src="abqhoriz.png" class="logo"></a>
-                    </div>
-                   <div class="menu">
-                     <ul>
-                        <li><a href="aboutabq.php" style=font-size:15px;>About</a></li>
-                        <li><a href="priorities.php" style=font-size:15px;>Priorities</a></li>
-                        <li class="activeNav"><a href="sponsorspage.php"style=font-size:15px><font color="red";>Sponsors</font></a></li>
-                        <li><a href="outcomes.php" style=font-size:15px>Outcomes</a></li>
-                        <a href="donate.php"><button class="buttonDonate">Donate</button></a>
-                        <li><a href="contactpage.php" style=font-size:15px>Contact</a></li>
-                       
-                        
-                     </ul>
-                    </div>
-                  </nav>
-                </header>
-              </div>
-
-              <div class="sponsorSplash">
-
-                    <h1 class="sponsHead"><b>Community Partners</b></h1>
-                    <p class="splashText">Thank you to our partners in the community who are<br>
-                      stepping up to help meet Albuquerque’s challenges<br>
-                      head-on.<br></p>
-
-            
+<body>
+  <div class="navBar">
+    <header>
+      <nav> 
+        <div class="menu-icon">
+          <i class="fa fa-bars fa-2x"></i>
+        </div>
+            <div class="oneabqlogo">
+              <a href="oneabqhome.php"><img src="abqhoriz.png" class="logo"></a>
+            </div>
+                <div class="menu">
+                  <ul>
+                    <li><a href="aboutabq.php" style=font-size:15px;>About</a></li>
+                    <li><a href="priorities.php" style=font-size:15px;>Priorities</a></li>
+                    <li class="activeNav"><a href="sponsorspage.php"style=font-size:15px><font color="red";>Sponsors</font></a></li>
+                    <li><a href="outcomes.php" style=font-size:15px>Outcomes</a></li>
+                    <a href="donate.php"><button class="buttonDonate">Donate</button></a>
+                    <li><a href="contactpage.php" style=font-size:15px>Contact</a></li>
+                  </ul>
                 </div>
-
-                <div class="sponsorLogos">
+        </nav>
+    </header>
+  </div>
+  <div class="sponsorSplash">
+    <h1 class="sponsHead"><b>Community Partners</b></h1>
+      <p class="splashText">Thank you to our partners in the community who are<br>
+                            stepping up to help meet Albuquerque’s challenges<br>
+                            head-on.<br></p>
+  </div>
+  <div class="sponsorLogos">
                    <center>
                     <img src="allensigmon.png" id="logo">
                     <img src="bcbs.png" id="logo">
@@ -63,6 +55,7 @@
                     <img src="fresquez.png" id="logo">
                     <img src="frontierlogo.png" id="logos">
                     <img src="garcia.png" id="logo">
+
 
               
                     <img src="gklogo.png" id="logo">
@@ -83,7 +76,6 @@
                     <img src="yannis.png" id="logo">
                     <img src="yearout.png" id="logo">
                     <img src="ym_logo.png" id="logo">
-
                  
                   </center> 
 
@@ -137,3 +129,4 @@ Albuquerque NM 87125-5125</p>
 <script src="oneabq.js"></script>
   </body>
   </html>
+
