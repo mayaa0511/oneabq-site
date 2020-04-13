@@ -25,7 +25,7 @@
                    <div class="menu">
                      <ul>
                         <li><a href="aboutabq.php" style=font-size:15px;>About</a></li>
-                        <li><a href="priorities.php" style=font-size:15px;>Priorities</a></li>
+                        <li><a href="priorities.php" style=font-size:15px;>Initiatives</a></li>
                         <li class="activeNav"><a href="sponsorspage.php"style=font-size:15px>Sponsors</a></li>
                         <li class="activeNav"><a href="outcomespage.php"style=font-size:15px><font color="red";>Outcomes</font></a></li>
                         <li><a href="contactpage.php" style=font-size:15px>Contact</a></li>
@@ -56,7 +56,7 @@
                     <img src="handhouse-icon.png" height="80px" width="80px" class="icons">
                     </div>
 
-                      <h2>Homelessness and Housing Vouchers</h2>
+                      <h2>Homelessness & Housing</h2>
                     
                       <p>The One Albuquerque Housing Fund supports local organizations that are best suited to support those in need
                         throughout our community, including The Barrett Foundation, the Supportive Housing Coalition, Heading Home
@@ -89,7 +89,7 @@
                       <div class="workIcon">
                       <img src="work-icon.png" height="80px" width="80px" class="icons">
                     </div>
-                    <h2>Workforce Training</h2>
+                    <h2>Workforce Support</h2>
                     <p>
                       The City of Albuquerque is supporting a new workforce development program by providing the local workforce
                       with necessary skills, filling skill gaps, and meeting the needs of existing and potential employers. $1 million is
@@ -222,7 +222,7 @@ Albuquerque NM 87125-5125</p>
 <div class="col-md-4 , links">
 <a href="oneabqhome.php"><p><b>Home</b></p></a>
 <p><b>About</b></p>
-<a href="priorities.php"><p><b>Priorities</b></p></a>
+<a href="priorities.php"><p><b>Initiatives</b></p></a>
 <a href="sponsorspage.php"><p><b>Sponsors</b></p></a>
 <a href=""><p><b>Outcomes</b></p></a>
 <a href="donate.php"><p><b>Donate</b></p></a>
