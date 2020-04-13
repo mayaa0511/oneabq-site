@@ -24,7 +24,7 @@
   <div class="menu">
     <ul>
       <li><a href="aboutabq.php" style=font-size:15px;>About</a></li>
-      <li><a href="priorities.php" style=font-size:15px;>Priorities</a></li>
+      <li><a href="priorities.php" style=font-size:15px;>Initiatives</a></li>
       <li class="activeNav"><a href="sponsorspage.php"style=font-size:15px>Sponsors</a></li>
       <li class="activeNav"><a href="outcomespage.php"style=font-size:15px>Outcomes</a></li>
       <li class="activeNav"><a href="contactpage.php" style=font-size:15px><font color="red";>Contact</font></a></li>
@@ -67,7 +67,7 @@
   <div class="col-md-4 , links">
     <a href="oneabqhome.html"><p><b>Home</b></p></a>
     <p><b>About</b></p>
-    <a href="priorities.php"><p><b>Priorities</b></p></a>
+    <a href="priorities.php"><p><b>Initiatives</b></p></a>
     <a href="contactpage.php"><p><b>Sponsors</b></p></a>
     <a href="contactpage.php"><p><b>Outcomes</b></p></a>
     <a href="donate.php"><p><b>Donate</b></p></a>
