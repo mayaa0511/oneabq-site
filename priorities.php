@@ -27,7 +27,7 @@
          <div class="menu">
            <ul>
               <li><a href="aboutabq.php" style=font-size:15px;>About</a></li>
-              <li class="activeNav"><a href="priorities.php" style=font-size:15px;><font color="red";>Priorities</font></a></li>
+              <li class="activeNav"><a href="priorities.php" style=font-size:15px;><font color="red";>Initiatives</font></a></li>
               <li><a href="sponsorspage.php" style=font-size:15px;>Sponsors</a></li>
               <li><a href="" style=font-size:15px;>Outcomes</a></li>
               <a href="donate.php"><button class="buttonDonate">Donate</button></a>
@@ -41,7 +41,7 @@
       </header>
     </div>
     <div class="splashPage">
-    <h1 class="heading"><b>Our Priorities</b></h1>
+    <h1 class="heading"><b>Our Initiatives</b></h1>
     <p class="text">Over the next few years, the One Albuqueque Fund<br>aims to fund critical programs to address some of the<br>
         core challenges our city faces.</p>
     </div>
@@ -160,7 +160,7 @@ Albuquerque NM 87125-5125</p>
 <div class="col-md-4 , links">
 <a href="oneabqhome.html"><p><b>Home</b></p></a>
 <p><b>About</b></p>
-<a href="priorities.php"><p><b>Priorities</b></p></a>
+<a href="priorities.php"><p><b>Initiatives</b></p></a>
 <a href="contactpage.php"><p><b>Sponsors</b></p></a>
 <a href="contactpage.php"><p><b>Outcomes</b></p></a>
 <a href="donate.php"><p><b>Donate</b></p></a>
