@@ -29,7 +29,7 @@
               <li><a href="aboutabq.php" style=font-size:15px;>About</a></li>
               <li class="activeNav"><a href="priorities.php" style=font-size:15px;><font color="red";>Initiatives</font></a></li>
               <li><a href="sponsorspage.php" style=font-size:15px;>Sponsors</a></li>
-              <li><a href="" style=font-size:15px;>Outcomes</a></li>
+              <li><a href="outcomes.php" style=font-size:15px;>Outcomes</a></li>
               <a href="donate.php"><button class="buttonDonate">Donate</button></a>
               <li><a href="contactpage.php" style=font-size:15px;>Contact</a></li>
 
