@@ -25,7 +25,7 @@
   <div class="menu">
     <ul>
       <li><a href="aboutabq.php" style=font-size:15px;>About</a></li>
-      <li><a href="priorities.php" style=font-size:15px;>Priorities</a></li>
+      <li><a href="priorities.php" style=font-size:15px;>Initiatives</a></li>
       <a href="donate.php"><button class="buttonDonate">Donate</button></a>
       <li><a href="sponsorspage.php" style=font-size:15px;>Sponsors</a></li>
       <li><a href="outcomes.php" style=font-size:15px;>Outcomes</a></li>
@@ -75,7 +75,7 @@
       <div class="col-md-4">
       </div>
     <div class="col-md-4">
-      <h3 class="housingVouchers"><b>Housing Vouchers<br>For The Homeless</b></h3>
+      <h3 class="housingVouchers"><b>Homelessness &<br>Housing</b></h3>
       <button class="learnMoreButton"><a href="https://www.cabq.gov/one-abq-housing-fund">Learn More</a></button>
     </div>
   <div class="col-md-4">
@@ -118,7 +118,7 @@
       <div class="col-md-4 links">
         <p><b>Home</b></p>
         <a href="aboutabq.php"><p><b>About</b></p></a>
-        <a href="priorities.php"><p><b>Priorities</b></p></a>
+        <a href="priorities.php"><p><b>Initiatives</b></p></a>
         <a href="sponsorspage.php"><p><b>Sponsors</b></p></a>
         <a href=""><p><b>Outcomes</b></p></a>
         <a href="donate.php"><p><b>Donate</b></p></a>
