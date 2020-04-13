@@ -44,12 +44,12 @@
           </div>
         </div>
     <div class="col-sm-3">
-      <h2><b>Workforce<br>Training</b></h2>
+      <h2><b>Workforce<br>Support</b></h2>
           <p>Your donation to the Workforce Training fund will help strengthen the newly created Job Training Albuquerque program.</p>
     </div>
   <div class="col-sm-3">
     <img class="donateIcon2" src="handhouse-icon.png" height="80px" width="80px">
-      <h2><b>Housing<br>Vouchers</b></h2>
+      <h2><b>Homelessness &<br>Housing</b></h2>
         <p>Your donation to the Housing Voucher fund will support a “housing first” model of tackling homelessness in Albuqeurque.</p>
   </div>
   <div class="col-sm-3">
@@ -84,7 +84,7 @@
       <div class="col-md-4 , links">
         <a href="oneabqhome.php"><p><b>Home</b></p></a>
         <p><b>About</b></p>
-        <a href="priorities.php"><p><b>Priorities</b></p></a>
+        <a href="priorities.php"><p><b>Initiatives</b></p></a>
         <a href="sponsorspage.php"><p><b>Sponsors</b></p></a>
         <a href="outcomes.php"><p><b>Outcomes</b></p></a>
         <a href="donate.php"><p><b>Donate</b></p></a>
