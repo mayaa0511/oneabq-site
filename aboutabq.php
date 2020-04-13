@@ -25,7 +25,7 @@
   <div class="menu">
     <ul>
       <li><font color="red"><a style=font-size:15px;>About</font></li>
-      <li><a href="priorities.php" style=font-size:15px;>Priorities</a></li>
+      <li><a href="priorities.php" style=font-size:15px;>Initiatives</a></li>
       <li><a href="sponsorspage.php" style=font-size:15px;>Sponsors</a></li>
       <li><a href="outcomes.php" style=font-size:15px;>Outcomes</a></li>
       <a href="donate.php"><button class="buttonDonate">Donate</button></a>
@@ -152,7 +152,7 @@
         <div class="col-md-4 , links">
           <a href="oneabqhome.php"><p><b>Home</b></p></a>
           <p><b>About</b></p>
-          <a href="priorities.php"><p><b>Priorities</b></p></a>
+          <a href="priorities.php"><p><b>Initiatives</b></p></a>
           <a href="contactpage.php"><p><b>Sponsors</b></p></a>
           <a href="contactpage.php"><p><b>Outcomes</b></p></a>
           <a href="donate.php"><p><b>Donate</b></p></a>
