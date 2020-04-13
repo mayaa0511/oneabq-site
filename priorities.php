@@ -83,7 +83,7 @@
           
             <div class="mySlides">
                 <img src="work-icon.png" class="work-icon">
-                <h2 class="heading2"> Workforce<br> Training </h2>
+                <h2 class="heading2"> Workforce<br> Support </h2>
                 <p class="text2">
                   To support our local small businesses, we need
                   to ensure that they have the tools necessary to
