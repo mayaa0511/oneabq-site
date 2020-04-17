@@ -9,7 +9,6 @@ body{
   font: Proxima Nova;
 }
 
-
 .logo2{
   position: absolute;
   left: 200px;
@@ -30,13 +29,13 @@ body{
 }
 
 .content{
-    position: absolute;
+  position: absolute;
   width: 100%;
-  margin-bottom: : 450px;
+  margin-bottom: 450px;
   font-family: Proxima Nova;
   line-height: 20px;
   text-align: left;
-  color: #fff;
+  color: #ffff;
   height: 350px;
 }
 
@@ -71,13 +70,13 @@ li{
   font-size: 15px;
 }
 
+
 .buttonDonate{
   float: right;
   margin-top: 15px;
   margin-right: 20px;
   background: #cc9933 0% 0% no-repeat padding-box;
-  font: Bold Proxima Nova
-  padding: 100px;
+  font: Bold Proxima Nova;
   font-size: 13px;
   color: #fff;
   display: inline-block;
@@ -208,16 +207,16 @@ input:focus, input.form-control:focus{
 }
 
 .sponsHead{
-    padding-top: 200px;
-    margin: 0 auto;
-    text-align: center;
-    color: #fff;
+  padding-top: 200px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
 }
+
 .splashText{
-    
-    margin: 0 auto;
-    color: #fff;
-    text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
 }
 
 .sponsorLogos{
@@ -232,6 +231,51 @@ input:focus, input.form-control:focus{
 #logos{
   width: 15%;
   padding: 2%;
+}
+
+  
+@media(max-width: 800px) {
+  .logo {
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: #000;
+  }
+
+  nav.black ul {
+    background: #000;
+  }
+
+  .menu-icon {
+    display: block;
+    background-color: black;
+  }
+
+  .buttonDonate{
+    align-content: center;
+  }
+
+  .footer {
+    background-size: cover;
+    font-size: small;
+  }
+
+  .links {
+    margin-top: -160px;
+  }
+
+  .rights {
+    font-size: 5px;
+    margin-top: -5px;
+  }
+
+  .footerLogo {
+    margin-top: -160px;
+  }
 }
 
   

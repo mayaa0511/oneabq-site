@@ -1,12 +1,12 @@
-body{
-    font-family: Proxima Nova;
-}
-
-html, body {
+html, body{
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: Proxima Nova;
+}
+
+body{
+  background: #000;
+  font: Proxima Nova;
 }
 
 a:hover {
@@ -19,62 +19,63 @@ button {
 }
 
 nav {
-    z-index: 9999;
-    position: fixed;
-    width: 100%;
+  z-index: 9999;
+  position: fixed;
+  width: 100%;
 }
 
 nav ul {
-    list-style: none;
-    background: rgba(0,0,0,0);
-    overflow: hidden;
-    color: #fff;
-    padding-left: 150px;
-    text-align: left;
-    margin: 0;
-    transition: 1s;
+  list-style: none;
+  background: rgba(0,0,0,0);
+  overflow: hidden;
+  color: #fff;
+  padding-left: 150px;
+  text-align: left;
+  margin: 0;
+  transition: 1s;
 }
 
 nav.black ul{
-    background-color: #000;
+  background-color: #000;
 }
 
 li{
-    display: inline-block;
-    padding: 20px
+  display: inline-block;
+  padding: 20px;
+  font-size: 15px;
 }
-
 
 .menu{
-    background:transparent;
+  background:transparent;
 }
 
-}
 nav ul li {
-    padding: 20px;
+  padding: 20px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
 }
+ 
  nav.black ul{
-     background-color: #000;
+  background-color: #000;
  }
+
 .menu-icon {
-    width: 100%;
-    background: #fff;
-    text-align: right;
-    box-sizing: border-box;
-    padding: 15px 24px;
-    cursor: pointer;
-    color: #000;
-    display: none;
+  width: 100%;
+  background: #000;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
 }
 
 .active{
-    color: #CC3333;
+  color: #CC3333;
 }
 
 .logo {
@@ -84,7 +85,6 @@ nav ul li a {
   height: 40px;
   width: auto;
 }
-
 
 .buttonDonate {
   float: right;
@@ -102,18 +102,15 @@ nav ul li a {
   height: 35px;
 }
 
-
-
 .aboutABQ {
-    background-image: url("abq-skyline.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
-    padding-left: 99px;
-    background-color: #CC9933;
-    color: #fff;
-    height: 850px;
-
+  background-image: url("abq-skyline.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-left: 99px;
+  background-color: #CC9933;
+  color: #fff;
+  height: 850px;
 }
 
 .aboutVid {
@@ -121,102 +118,53 @@ nav ul li a {
   overflow: hidden;
   display: block;
   margin-bottom: -7px;
-
-
 }
 
-
 .vertLogo{
-    padding-top: 30px;
-    padding-left: 50px;
-    width: 300px;
-    height: 200px;
-    margin-top: 5px;
-    margin-left: -5px;
+  padding-top: 30px;
+  padding-left: 50px;
+  width: 300px;
+  height: 200px;
+  margin-top: 5px;
+  margin-left: -5px;
 }
 
 .text {
-    margin-left: -70px;
-    margin-top: 25px;
-}
-
-@media(max-width: 580px) {
-    .logo {
-        position: fixed;
-        top: 0;
-        margin-top: 16px;
-    }
-
-
-    nav ul {
-        max-height: 0px;
-        background: #000;
-    }
-
-    nav.black ul {
-        background: #000;
-    }
-
-    .showing {
-        max-height: 20em;
-    }
-
-    nav ul li {
-        box-sizing: border-box;
-        width: 100%;
-        padding: 24px 0;
-        text-align: center;
-    }
-
-    .menu-icon {
-        display: block;
-    }
+  margin-left: -70px;
+  margin-top: 25px;
 }
 
 .board{
-    background-color: #CC9933;
-    border-left-style: solid black;
-    margin-top: -100px;
-  
+  background-color: #CC9933;
+  margin-top: -100px;
 }
 
-
-
-
-
 h1 {
-    text-align: center;
-    color: #fff;
+  text-align: center;
+  color: #fff;
 }
 
 h5 {
-    
-    text-align: left;
-    margin-left: 49px;
+  text-align: left;
+  margin-left: 49px;
 }
 
-
 .charlesPic{
-    margin-left: 100px;
-    max-width: 250px;
-
-
+  margin-left: 100px;
+  max-width: 250px;
 }
 
 .charles{
-    padding-top: 65px;
-
+  padding-top: 20px;
 }
 
 .drewPic{
-    margin-left: 100px;
-    max-width: 250px; 
-
-
+  margin-left: 100px;
+  max-width: 250px; 
 }
 
 .drew{
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .pilarPic{
@@ -225,57 +173,52 @@ h5 {
 }
 
 .pilar{
-    padding-top: 20px;
-
-
+  padding-top: 20px;
 }
 
 .pSpace {
   margin-top: -30px; 
-      padding-top: 30px;
-    padding-left: 50px ;
-    color: #fff;
+  padding-top: 30px;
+  padding-left: 50px ;
+  color: #fff;
 }
 
 .pSpace2 {
   margin-top: -30px;
-      padding-top: 30px;
-    padding-left: 50px ;
-    color: #fff;
+  padding-top: 30px;
+  padding-left: 50px ;
+  color: #fff;
 }
 
 .pSpace3 {
   margin-top: -30px;
-      padding-top: 30px;
-    padding-left: 50px ;
-    color: #fff;
+  padding-top: 30px;
+  padding-left: 50px ;
+  color: #fff;
 }
-
 
 .footer {
   background-image: url("footer-bg.png");
   background-size: 100%;
+  background-repeat: no-repeat;
   background-position: bottom;
   padding-top: 100px;
   padding-left: 100px;
   padding-right: 100px;
-  height: 350px;
-}
+  height: 350px;}
 
 .footerLogo {
-  display: block;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   align-items: center;
   width: 100px;
   height: 70px;
-
+  margin-bottom: -50px;
 }
 
 .links a {
   color: black;
-
 }
 
 .links {
@@ -283,7 +226,6 @@ h5 {
   line-height: 90%;
   border-right-style: solid;
 }
-
 
 .contactUs{
   color: #cc9933;
@@ -303,32 +245,58 @@ h5 {
 }
 
 .fill {
-    background-color: #cc9933;
+  background-color: #cc9933;
 }
 
-@media only screen and (max-width: 812px) {
-    body {
-        width: 812px;
-        line-height: 200px;
-    }
-   
-    .aboutABQ {
-        background-position: 50%;
-    }
+@media(max-width: 800px) {
+  .logo {
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+  }
 
-    .charlesPic {
-        position: relative;
-        left: -55px;
-        
-    }
+  nav ul {
+    max-height: 0px;
+    background: #000;
+  }
 
-    .info {
-        margin-top: 10%;
-    }
+  nav.black ul {
+    background: #000;
+  }
 
-    .footer {
-        background-repeat: no-repeat;
-        background-size: cover;
+  .showing {
+    max-height: 20em;
+  }
 
-    }
+  .menu-icon {
+    display: block;
+    background-color: black;
+  }
+
+  .footer {
+    background-size: cover;
+    font-size: small;
+  }
+
+  .links {
+    margin-top: -160px;
+  }
+
+  .rights {
+    font-size: 5px;
+    margin-top: -5px;
+  }
+
+  .footerLogo {
+    margin-top: -160px;
+  }
+
+  .vertLogo {
+    margin-top: 320px;
+  }
+
+  br {
+  display: none;
+}
+
 }

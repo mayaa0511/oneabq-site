@@ -27,9 +27,9 @@
          <div class="menu">
            <ul>
               <li><a href="aboutabq.php" style=font-size:15px;>About</a></li>
-              <li class="activeNav"><a href="priorities.php" style=font-size:15px;><font color="red";>Priorities</font></a></li>
+              <li class="activeNav"><a href="priorities.php" style=font-size:15px;><font color="red";>Initiatives</font></a></li>
               <li><a href="sponsorspage.php" style=font-size:15px;>Sponsors</a></li>
-              <li><a href="" style=font-size:15px;>Outcomes</a></li>
+              <li><a href="outcomes.php" style=font-size:15px;>Outcomes</a></li>
               <a href="donate.php"><button class="buttonDonate">Donate</button></a>
               <li><a href="contactpage.php" style=font-size:15px;>Contact</a></li>
 
@@ -41,7 +41,7 @@
       </header>
     </div>
     <div class="splashPage">
-    <h1 class="heading"><b>Our Priorities</b></h1>
+    <h1 class="heading"><b>Our Initiatives</b></h1>
     <p class="text">Over the next few years, the One Albuqueque Fund<br>aims to fund critical programs to address some of the<br>
         core challenges our city faces.</p>
     </div>
@@ -83,7 +83,7 @@
           
             <div class="mySlides">
                 <img src="work-icon.png" class="work-icon">
-                <h2 class="heading2"> Workforce<br> Training </h2>
+                <h2 class="heading2"> Workforce<br> Support </h2>
                 <p class="text2">
                   To support our local small businesses, we need
                   to ensure that they have the tools necessary to
@@ -147,7 +147,7 @@
 </div>
 <div class="contactUs2">
 <p style="line-height:1.2"><b>Steve Fitzer, Development Director<br></b>
-+1.505.270.4079<br>
++1.505.633.6813<br>
 stevefitzer@onealbuquerque.org<br>
 PO BOX 25125<br>
 Albuquerque NM 87125-5125</p>
@@ -160,7 +160,7 @@ Albuquerque NM 87125-5125</p>
 <div class="col-md-4 , links">
 <a href="oneabqhome.html"><p><b>Home</b></p></a>
 <p><b>About</b></p>
-<a href="priorities.php"><p><b>Priorities</b></p></a>
+<a href="priorities.php"><p><b>Initiatives</b></p></a>
 <a href="contactpage.php"><p><b>Sponsors</b></p></a>
 <a href="contactpage.php"><p><b>Outcomes</b></p></a>
 <a href="donate.php"><p><b>Donate</b></p></a>
