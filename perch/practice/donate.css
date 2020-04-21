@@ -1,0 +1,153 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+  
+body{
+      background: #cc9933;
+    font-family: Quicksand;
+}
+nav {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    background: rgba(0,0,0,0);
+    overflow: hidden;
+    padding-left: 150px;
+    text-align: left;
+    margin: 0;
+    transition: 1s;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+nav ul li.active a{
+    color: #CC3333;
+}
+
+.buttonDonate{
+    margin-left: 750px;
+    background-color: #cc9933;
+    color: #fff;
+    border-radius: 8px;
+}
+.menu{
+    background:transparent;
+}
+
+ nav.black ul{
+     background: #000;
+ }
+.menu-icon {
+    width: 100%;
+    background: #fff;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #000;
+    display: none;
+}
+
+.active{
+    color: #CC3333;
+}
+
+.logo {
+    position: fixed;
+    float: left;
+    margin: 16px 36px;
+    height: 50px;
+    width: auto;
+}
+
+.donateSplashPage{
+    background: url("donate-header-bg.png");
+    background-position: bottom;
+    background-size: cover;
+    height: 600px;
+}
+
+.heading{
+    padding-top: 200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+.text{
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+
+.donateOptions{
+    background-color: #cc9933;
+    padding-top: 100px;
+    color: #fff;
+    height: 500px;
+}
+
+.donating{
+    background-color: #CC3333;
+    color: #fff;
+    border-radius: 8px;
+    margin-left: 46%;
+}
+
+.footer{
+    background-image: url("footer-bg.png");
+    background-position: bottom;
+    background-size: 100%;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 350px;
+}
+
+.footerLogo{
+    padding-left: 100px;
+}
+
+.links{
+    text-align: right;
+    line-height: 90%;
+    border-right-style: solid;
+    margin-bottom: 15px;
+}
+
+.links ul li{
+    list-style: none;
+    margin-bottom: 15px;
+    color: black;
+
+}
+
+.links ul li a{
+    color: black;
+}
+
+.rights{
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 310px;
+}
+
+h4{
+    color: #cc9933;
+}

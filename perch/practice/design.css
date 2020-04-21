@@ -1,0 +1,202 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}
+
+body{
+    background: #cc9933;
+  font-family: Quicksand;
+}
+
+.logo2{
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+.splashText {
+    color: #fff;
+   position: absolute;
+   left: 350px;
+   top: 150px;
+}
+.button1{
+    border-radius: 8px;
+    background-color: #cc9933;
+    color: white;
+    font-size: 20px;
+}
+
+.content {
+  width: 100%;
+  padding-top: 100px;
+  margin: auto;
+  font-size: 11px;
+  line-height: 20px;
+  text-align: left;
+  background: url("getInvolved.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 400px;
+}
+
+video{
+    height: 550px;
+    width: 100%;
+    object-fit: cover;
+    z-index: -100;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    overflow: hidden;
+}
+.logo {
+    position: fixed;
+    float: left;
+    margin: 16px 36px;
+    height: 50px;
+    width: auto;
+}
+
+nav {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    background: rgba(0,0,0,0);
+    overflow: hidden;
+    color: #fff;
+    padding-left: 150px;
+    text-align: left;
+    margin: 0;
+    transition: 1s;
+}
+
+li{
+    display: inline-block;
+    padding: 20px
+}
+
+.buttonDonate{
+    margin-left: 750px;
+    background-color: #cc9933;
+    color: #fff;
+    border-radius: 8px;
+}
+.menu{
+    background:transparent;
+}
+
+}
+nav ul li {
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+ nav.black ul{
+     background: #000;
+ }
+.menu-icon {
+    width: 100%;
+    background: #fff;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #000;
+    display: none;
+}
+
+.learnMore{
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+
+
+.volunteer{
+    background-image: url("skyline.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.button3{
+    border-radius: 8px;
+    background-color: #cc9933;
+    color: white;
+    font-size: 20px;
+}
+
+.picture{
+    width: 100%;
+    height: 300px;
+    transform: scaleX(-1);
+}
+.email{
+    background-image;: url("mustard.png");
+    color: #fff;
+}
+.register{
+    border-radius: 8px;
+    background-color: #cc9933;
+    color: white;
+    font-size: 20px;
+} 
+
+.footer{
+    background-image: url(footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 350px;
+    color: white;
+}
+.links{
+    text-align: right;
+}
+@media(max-width: 580px) {
+    .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+    }
+
+
+    nav ul {
+        max-height: 0px;
+        background: #000;
+    }
+
+    nav.black ul {
+        background: #000;
+    }
+
+    .showing {
+        max-height: 20em;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px 0;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}

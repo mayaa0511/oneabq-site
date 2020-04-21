@@ -1,0 +1,118 @@
+nav {
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    background: rgba(0,0,0,0);
+    overflow: hidden;
+    color: #fff;
+    padding-left: 150px;
+    text-align: left;
+    margin: 0;
+    transition: 1s;
+}
+
+nav.black ul{
+    background-color: #000;
+}
+li{
+    display: inline-block;
+    padding: 20px
+}
+
+.buttonDonate{
+    margin-left: 650px;
+    background-color: #cc9933;
+    color: #fff;
+    border-radius: 8px;
+}
+.menu{
+    background:transparent;
+}
+
+}
+nav ul li {
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+ nav.black ul{
+     background-color: #000;
+ }
+.menu-icon {
+    width: 100%;
+    background: #fff;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #000;
+    display: none;
+}
+
+.logo {
+    position: fixed;
+    float: left;
+    margin: 16px 36px;
+    height: 50px;
+    width: auto;
+}
+
+
+.buttonDonate{
+    margin-left: 750px;
+    background-color: #cc9933;
+    color: #fff;
+    border-radius: 8px;
+}
+
+
+.aboutOneAbq {
+	background-color: #CC9933;
+	color: #fff;
+	
+}
+
+.logo2{
+	padding-left: 99px;
+}
+
+@media(max-width: 580px) {
+    .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+    }
+
+
+    nav ul {
+        max-height: 0px;
+        background: #000;
+    }
+
+    nav.black ul {
+        background: #000;
+    }
+
+    .showing {
+        max-height: 20em;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px 0;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}

@@ -1,0 +1,189 @@
+nav {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    background: rgba(0,0,0,0);
+    overflow: hidden;
+    padding-left: 150px;
+    text-align: left;
+    margin: 0;
+    transition: 1s;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+nav ul li.active a{
+    color: #CC3333;
+}
+
+nav.black ul{
+    background: #000;
+}
+
+.buttonDonate{
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    background: #cc9933 0% 0% no-repeat padding-box;
+    font: Bold Proxima Nova
+    padding: 100px;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    border: none;
+    border-radius: 8px;
+    width: 115px;
+    height: 35px;
+}
+.menu{
+    background:transparent;
+}
+
+.menu-icon {
+    width: 100%;
+    background: #fff;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #000;
+    display: none;
+}
+
+.splashPage{
+        background-image: url("contact-header-bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 650px;
+        margin: 0 auto;  
+}
+
+.heading{
+    padding-top: 200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+.text{
+    
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+
+.logo {
+    position: fixed;
+    float: left;
+    margin: 16px 36px;
+    height: 50px;
+    width: auto;
+}
+
+.contactForms{
+    background-color: #cc9933;
+    background-image: url("abq-skyline.png");
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 750px;
+    padding-top: 30px;
+    padding-left: 99px;
+}
+
+.getIn{
+    color: #fff;
+}
+
+input{
+    background-color: #0000;
+    border-radius: 8px;
+    border: solid white 2px;
+}
+
+#lastName{
+    margin-left: 10px;
+}
+
+#message{
+    height: 100px;
+    width: 370px;
+}
+
+#email{
+    width: 370px;
+}
+
+#phoneNumber{
+    width: 370px;
+}
+
+.submit{
+    color: #fff;
+    border-radius: 8px;
+    background: #cc3333 0% 0% no-repeat padding-box;
+    font: Bold 20px Proxima Nova
+    padding: 100px;
+    border:none;
+    display: inline-block;
+    margin-top: 15px;
+    width: 100px;
+    height: 36px;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+.footer{
+    background-image: url("footer-bg.png");
+    background-size: 100%;
+    background-position: bottom;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 350px;
+}
+
+.footerLogo{
+    padding-left: 100px;
+}
+
+.links{
+    text-align: right;
+    line-height: 90%;
+    border-right-style: solid;
+    margin-bottom: 15px;
+}
+
+.links ul li{
+    list-style: none;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.links ul li a{
+    color: black;
+}
+
+.rights{
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 310px;
+}
+
+h4{
+    color: #cc9933;
+}

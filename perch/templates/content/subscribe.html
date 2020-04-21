@@ -1,0 +1,15 @@
+<perch:form id="subscribe" app="perch_mailchimp" double-optin="true">
+    <perch:success>
+        <p>Thank you!</p>
+    </perch:success>
+    <div>
+        <perch:label for="email">Email</perch:label>
+        <perch:input id="email" required type="email" mailer="email">
+        <perch:error type="required" for="email">Required</perch:error>
+    </div>
+    <div>
+        <perch:input type="submit" value="Submit" id="btnsubmit">
+        <perch:input type="hidden" value="1" id="confirm" mailer="confirm_subscribe">
+        <perch:input type="hidden" id="list" value="your list ID goes here" mailer="list">
+    </div>
+</perch:form>

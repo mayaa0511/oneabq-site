@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>oneabq</title>
+  <link rel="stylesheet" href="design.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+  <body>
+    <div class="navBar">
+      <header>
+
+        <nav> 
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+
+
+          <div class="oneabqlogo">
+            <img src="abqhoriz.png" class="logo">
+          </div>
+         <div class="menu">
+           <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Priorities</a></li>
+              <li><a href="#">Contact</a></li>
+              <button class="buttonDonate">Donate</button>
+           </ul>
+          </div>
+        </nav>
+      </header>
+    </div>
+<div>
+<video autoplay muted loop id="myVid">
+          <source src="splashpage.mp4" type="video/mp4"> 
+        </video>
+</div>
+<div class="logo2">
+<img src="abqvert.png">
+</div>
+<div class="splashText">
+<h1>We Are All <br>In This Together</h1>
+<p>One Albuquerque is about giving everyone <br>
+    a seat at the table to make our communities<br> 
+    safer, more innovative, and more inclusive.</p>
+<button class="button1">About Us</button>
+</div>
+<div class="content">
+    <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+        <h3> Get Involved</h3>
+        <p> Volunteers will engage residents to address the<br>
+            challenges the city faces. After the success of the<br>
+            One ABQ: Challenge, we will continue to connect<br>
+            those who want to be involved to volunteer<br>
+            oppurtunity, making sure that everyone can play a<br>
+            role in moving our city forward.</p>
+        <button class="learnMore"> Learn More </button>
+        </div>
+    </div>
+</div>
+    <div class="volunteer">
+        <div class="row">
+            <div class="col-md-5">
+            </div>
+            <div class="col-md-2">
+                <h3> Housing Vouchers
+                     For The Holidays</h3>
+                <p> Volunteers will engage residents to address the challenges the city faces.<br> 
+                    After the success of the One ABQ: Challenge, we will continue to connect<br>
+                    those who want to be involved to a volunteer opportunity, making sure<br>
+                    that everyone can play a role in moving our city forward.</p>
+                <button class="button3">Learn More</button>
+            </div>
+            <div class="col-md-5">
+            </div>
+        </div>
+    </div>
+    <div class="email">
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-4">
+                <h2>Stay Connected</h2>
+                <p>Sign up with your email to receive updates from<br>
+                the City of Albuquerque.</p>
+                <input type="text" name="mail"> <button class="register">Sign Up</button>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>CONTACT US</h4>
+                <p>onealbuquerque@cabq.com</p>
+                <p>+1.505.768.3000</p>
+            </div>
+            <div class="col-md-4">
+                <img src="abqhoriz.png" class="footerLogo"> 
+            </div>
+            <div class="col-md-4 , links">
+                <p>Home</p>
+                <p>About</p>
+                <p>Priorities</p>
+                <p>Contact</p>
+                <p>Donate</p>
+            </div>
+        </div>
+       <div class="row">
+        <div class="col-md-2"></div>
+           <div class="col-md-8">
+            <p>2019 City of Albuquerque | All Rights Reserved | The offical website for the One Albuquerque Fund</p>
+       </div> 
+        <div class="col-md-2"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript">
+
+    $(document).ready(function() {
+      $(".menu-icon").on("click", function() {
+        $("nav ul").toggleClass("showing");
+      });
+    });
+  
+  
+    $(window).on("scroll", function() {
+      if($(window).scrollTop()) {
+        $("nav").addClass("black");
+      }
+      else {
+         $("nav").removeClass("black");
+      }
+    })
+</script>
+  </body>
+  </html>
